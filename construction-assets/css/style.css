@@ -1,0 +1,41 @@
+/* Consult Banner Styling */
+.consult_banner_section_inner h2{
+    display: inline;
+}
+.consult_banner_section_inner a{
+    float: right;
+}
+
+/* sTATS sECTION sTYLING */
+
+.construction_index .stats_section_inner:hover i{
+    color: #232323 !important;
+}
+
+/* Customer Review Section */
+.customer_feedback_section{
+    background: url("../images/customer_review.jpg") !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+/* Side Section Styling */
+.construction_index .half_section_right .half_section_picture{
+    background: url(../images/half_section_right.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+}
+
+/*media queries */
+@media only screen and (max-width: 992px) {
+    .consult_banner_section_inner h2{
+        display: block;
+    }
+    .consult_banner_section_inner a{
+        float: none;
+    }
+    .consult_banner_section_inner{
+        text-align: center;
+    }
+}

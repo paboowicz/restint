@@ -1,0 +1,37 @@
+/* Font Poiret Css Import*/
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+.raleway,
+.default_section_heading,
+.menu_bars,
+.countdown ul.count_down li,
+.hashtags_div a
+{
+    font-family: 'Poiret One', cursive !important;
+}
+
+
+.default_section_heading{
+    font-size: 44px;
+}
+
+.default_small_heading,
+.small_heading_navy{
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.stats_section_inner p,
+.customer_feedback_name{
+    font-size: 22px !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .default_section_heading {
+        font-size: 32px !important;
+    }
+    .small_heading_navy,
+    .default_small_heading{
+        font-size: 16px !important;
+    }
+}

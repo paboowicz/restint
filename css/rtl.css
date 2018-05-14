@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&subset=devanagari,latin-ext');
+
+
+body, h1 ,h2 ,h3 ,h4 ,h5 , h6 , p{
+    font-family: 'Khula', sans-serif !important;
+}
+
+
+.right_to_left{
+    direction: rtl;
+}
+
+.loader,
+#rev_slider_2_1_wrapper{
+    direction: ltr;
+}
+
+.navbar .navbar-header .navbar-brand {
+    width: 100px;
+    padding: 0px 0;
+}
+
+.navbar .navbar-header .navbar-brand img {
+    width: 75%;
+}
+
+.navbar.shrink .navbar-header .navbar-brand{
+    padding: 7px 0;
+}
+
+/* Navbar Rtl */
+.navbar-header{
+    float: right;
+}
+
+.menu_bars.active.right{
+    float: right;
+    right: 230px;
+}
+
+.menu_bars.right{
+    left: 10px;
+    right: auto;
+    float: left;
+}
+
+@media (min-width: 768px){
+    .navbar-nav > li {
+        float: right;
+    }
+
+}
+
+.pushmenu .push-logo > img{
+    width: 80px;
+}
+
+.menu_bars.active.right{
+    top: 25px;
+}
+
+.half_section_main .side_section_text .default_divider{
+    margin-right: 0 ;
+}
+
+@media only screen and (max-width: 992px) {
+    .half_section_main .side_section_text .default_divider{
+        margin-right: auto !important;
+    }
+
+    .contact_form_inner .default_divider{
+        margin-right: auto !important;
+    }
+}
+
+.price h2{
+    direction: ltr;
+}
+
+.customer_feedback_section{
+    direction: ltr;
+}
+
+.contact_form_inner .default_divider{
+    margin-right: 0px;
+}
+
+.contact_form_section .mew_form .button_div a i{
+    margin-right: -10px;
+    margin-left: 15px;
+}
+
+.menu_bars.active.right {
+    float: left;
+    left: 0;
+    right: auto;
+}
+
+.pushmenu-right.pushmenu-open{
+    left: 0;
+    right: auto;
+    box-shadow: none;
+}
+
+.pushmenu-right{
+    left: -270px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu_bars{
+        top: 33px;
+    }
+    .shrink .menu_bars.right{
+        top: 28px;
+    }
+    .menu_bars.active.right{
+        top: 25px;
+    }
+}

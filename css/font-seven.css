@@ -1,0 +1,11 @@
+/* Monserrat */
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
+
+.raleway,
+.default_section_heading,
+.menu_bars,
+.countdown ul.count_down li,
+.hashtags_div a
+{
+    font-family: 'Over the Rainbow', cursive;
+}

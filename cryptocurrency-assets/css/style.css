@@ -1,0 +1,186 @@
+/* Index Twenty Two */
+.crypto_slider_main .swiper-slide{
+    height: 100vh;
+}
+
+.crypto_slider_main_inner{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+}
+
+.bitcoin-price-heading{
+    font-size: 120px;
+    font-weight: 100;
+}
+
+#bprice,
+#eprice,
+#lprice{
+    font-weight: 100;
+}
+
+.crypto_logo{
+    width: 75px;
+    height: 75px;
+    display: table-cell;
+}
+
+.crypto_logo_main{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.crypto_logo img{
+    width: 100%;
+}
+
+.crypto_logo_main .swiper-slider-heading{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+.crypto_button a{
+    font-size: 22px !important;
+}
+
+.crypto_button{
+    margin-top: 40px;
+}
+
+.crypto_black_overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+}
+
+.bg_bitcoin{
+    background: #f79620;
+}
+
+.bg_ethereum{
+    background: #627eea;
+}
+
+.bg_litecoin{
+    background: #a0a0a0;
+}
+
+.crypto_slider_main .swiper-pagination-bullet,
+.crypto_slider_main .swiper-pagination-bullet:hover{
+    background: transparent;
+    opacity: 1;
+    border: 2px solid #fff;
+    height: 16px;
+    width: 16px;
+}
+
+.crypto_slider_main .swiper-pagination-bullet-active,
+.crypto_slider_main .swiper-pagination-bullet:hover{
+    background: #FFFFFF !important;
+}
+
+.crypto_currency_version .half_section_right .half_section_picture{
+    background: url("../images/half_section_right_bg_2.jpg") !important;
+    background-repeat: no-repeat;
+}
+
+.crypto_currency_version .half_section_main .half_section_picture{
+    background: url("../images/half_section_left_bg_2.jpg");
+    background-repeat: no-repeat;
+}
+
+.crypo_stock_prices{
+    font-size: 30px;
+    text-align: center;
+}
+
+#e_price,
+#b_price,
+#l_price,
+#r_price,
+#iota_price,
+#dash_price,
+#neo_price,
+#monero_price,
+#qtum_price{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.stock_prices_crypto{
+    display: table;
+    margin-top: 10px !important;
+    margin: 0 auto;
+    margin-bottom: 55px !important;
+    text-align: center;
+
+}
+
+.crypo_stock_prices_logo{
+    width: 35px;
+    height: 35px;
+    display: table-cell;
+}
+
+.crypo_stock_prices_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.crypo_stock_heading{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.dashboard_section .button{
+    margin-top: 35px;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 992px) {
+
+    .bitcoin-price-heading{
+        font-size: 60px;
+    }
+
+    .crypto_logo{
+        width: 55px;
+        height: 55px;
+    }
+
+    .crypto_button a{
+        font-size: 16px !important;
+    }
+
+    .crypto_logo_main .swiper-slider-heading{
+        padding-left: 15px;
+    }
+    .crypo_stock_prices{
+        font-size: 22px;
+    }
+
+    .dashboard_section .crypo_stock_heading{
+        font-size: 16px !important;
+        padding-left: 10px;
+    }
+
+    .dashboard_section .crypo_stock_prices_logo{
+        width: 30px;
+        height: 30px;
+    }
+    .dashboard_section .button{
+        margin: 0;
+    }
+
+    .dashboard_section .stock_prices_crypto{
+        margin-bottom: 30px !important;
+    }
+}

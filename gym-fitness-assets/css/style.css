@@ -1,0 +1,48 @@
+/* Medical Main Slider */
+.gym_main_slider{
+    height: 100vh;
+}
+
+.gym_main_slider .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover !important;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.gym_main_slider .swiper-arrows{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 2px solid ;
+    color: #fff;
+    transition: 300ms;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 40px;
+}
+
+
+/* Side Section */
+.gym-index .half_section_right .half_section_picture{
+    background: url("../images/half_right_section.jpg") !important;
+    background-size: cover !important;
+}
+
+/* Gym Feedback */
+.gym-index .customer_feedback_section{
+    background: url("../images/gym_feedback.jpg") !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
