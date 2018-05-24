@@ -1592,6 +1592,18 @@ body.pushmenu-push-toLeft{
 .half_section_main .side_section_text{
     padding-left: 30px;
 }
+.half_section_main .side_section_text a:hover{
+    padding-left: 0px;
+	text-decoration: none;
+	color: #f15927;
+	font-weight: 600;
+}
+.half_section_main .side_section_text a{
+    padding-left: 0px;
+	text-decoration: none;
+	color: #232323;
+	
+}
 
 .icons_div_small i{
     font-size: 30px;
