@@ -1,5 +1,17 @@
 /* Insert Your Color Codes Here */
 
+/* link w opiniach klientow */
+.customer_feedback_section a:hover{
+    color: #FF214F;
+	text-decoration: none;	
+	font-weight: 600;
+}
+.customer_feedback_section a{
+    color: #ffffff;
+	text-decoration: none;	
+	font-weight: 600;
+}
+
 /* For changing background color  */
 
 .dot1,

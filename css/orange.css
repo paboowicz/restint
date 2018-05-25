@@ -1,5 +1,18 @@
 /* Insert Your Color Codes Here */
 
+/* link w opiniach klientow */
+.customer_feedback_section a:hover{
+    color: #f15927;
+	text-decoration: none;	
+	font-weight: 600;
+}
+.customer_feedback_section a{
+    color: #ffffff;
+	text-decoration: none;	
+	font-weight: 600;
+}
+
+
 /* For changing background color  */
 .dot1,
 .navbar .navbar-nav li a:before,
