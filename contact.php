@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-    $to_Email   	= "admin@themes.ads"; //Replace with recipient email address
-    $subject        = 'Arone - New Contact Inquiry'; //Subject line for emails
+    $to_Email   	= "biuro@restint.pl"; //Replace with recipient email address
+    $subject        = 'kontakt ze strony restint.pl'; //Subject line for emails
 
 
     //check if its an ajax request, exit if not
@@ -21,7 +21,7 @@ if($_POST)
     //check $_POST vars are set, exit if any missing
     if(!isset($_POST["userName"]) || !isset($_POST["userEmail"]) || !isset($_POST["userMessage"]))
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Uzupełnij dane!'));
         die($output);
     }
 
@@ -35,27 +35,27 @@ if($_POST)
     //additional php validation
     if(strlen($user_Name)<3) // If length is less than 3 it will throw an HTTP error.
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Nazwa jest pusta lub za krótka!'));
         die($output);
     }
     if(!filter_var($user_Email, FILTER_VALIDATE_EMAIL)) //email validation
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Wprowadź poprawny email!'));
         die($output);
     }
 
     if(strlen($user_Message)<5) //check emtpy message
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Wiadomość jest za krótka!'));
         die($output);
     }
 
 
-    $message_Body = "<strong>Name: </strong>". $user_Name ."<br>";
-    $message_Body .= "<strong>Email: </strong>". $user_Email ."<br>";
+    $message_Body = "<strong>nazwa: </strong>". $user_Name ."<br>";
+    $message_Body .= "<strong>email: </strong>". $user_Email ."<br>";
    // $message_Body .= "<strong>Phone: </strong>". $user_Phone ."<br>";
    // $message_Body .= "<strong>Subject: </strong>". $user_Subject ."<br>";
-    $message_Body .= "<strong>Message: </strong>". $user_Message ."<br>";
+    $message_Body .= "<strong>wiadomość: </strong>". $user_Message ."<br>";
 
 
 
@@ -77,10 +77,10 @@ if($_POST)
 
     if(!$sentMail)
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Nie udało się wysłać wiadomości. Spróbuj jeszcze raz.'));
         die($output);
     }else{
-        $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Thank you for contacting us.'));
+        $output = json_encode(array('type'=>'message', 'text' => 'Witaj '.$user_Name .'. Wkrótce odpowiemy na Twoje pytanie'));
         die($output);
     }
 }
