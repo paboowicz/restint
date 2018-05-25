@@ -1,5 +1,18 @@
 /* Insert Your Color Codes Here */
 
+/* kolory tras dostawy */
+.half_section_main .side_section_text a:hover{
+    padding-left: 0px;
+	text-decoration: none;
+	color: #FF214F;
+	font-weight: 600;
+}
+.half_section_main .side_section_text a{
+    padding-left: 0px;
+	text-decoration: none;
+	color: #232323;
+	
+}
 /* link w opiniach klientow */
 .customer_feedback_section a:hover{
     color: #FF214F;
