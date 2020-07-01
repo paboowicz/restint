@@ -377,7 +377,7 @@ var swiper = new Swiper('.blog_slider_main', {
 
 // Team Slider
 var swiper = new Swiper('.team_slider', {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     loop: true,
     breakpoints: {
